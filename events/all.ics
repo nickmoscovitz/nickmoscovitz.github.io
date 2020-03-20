@@ -1,3 +1,9 @@
----
-layout: iCalendar
----
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:iCalendar Generator at https://nickmoscovitz.github.io
+NAME;LANGUAGE=en_US:Example Site - All Events
+DESCRIPTION;LANGUAGE=en_US:Site description.
+NAME;LANGUAGE=es:Sitio de ejemplo - Todos Los Eventos
+DESCRIPTION;LANGUAGE=es:Descripción del lugar.
+
+END:VCALENDAR

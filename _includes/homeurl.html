@@ -1,5 +1,0 @@
-{%- if page.lang != site.lang -%}
-{{- "/" | append: page.lang | append: "/" | relative_url -}}
-{%- else -%}
-{{- "/" | relative_url -}}
-{%- endif -%}
