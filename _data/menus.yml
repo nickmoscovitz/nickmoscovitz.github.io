@@ -45,22 +45,3 @@ main:
       title: Blog
       identifier: blog
       lang: en_US
-
-    # List of links for the `es` language.
-    - url: /es/
-      title: Inicio
-      identifier: inicio
-      lang: es
-    - url: /es/acercadenosotros/
-      title: Acerca de Nosotros
-      identifier: acerca-de-nosotros
-      title_text: ¡Aprenda más acerca de nosotros!
-      lang: es
-    - url: /es/contactenos/
-      title: Contáctenos
-      identifier: contactenos
-      lang: es
-    - url: /es/blog/
-      title: Blog
-      identifier: es-blog
-      lang: es
