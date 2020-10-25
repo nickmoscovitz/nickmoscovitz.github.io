@@ -24,6 +24,8 @@ lang: &lang >- # Default language, YAML anchor is used elsewhere.
 logo: /static/images/main-logo.png
 social:
     links:
+       # This was the original page:
+       #- https://spark.adobe.com/page/LYYbw/
         - https://www.instagram.com/nickmoscovitz
 
 # Blog settings.
