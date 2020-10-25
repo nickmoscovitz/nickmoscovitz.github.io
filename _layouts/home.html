@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Face a face</title>
+    <title>{{ site.title }}</title>
     <meta content="yes" name="apple-touch-fullscreen" />
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
@@ -12,20 +12,22 @@
 
     <meta property="og:title" content="Face a face">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://spark.adobe.com/page/LYYbw/embed.jpg?buster=1567719439085">
+    <meta property="og:image" content="{% link static/images/social-image.jpg %}">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="512">
     <meta property="og:description" content="See the story">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Face a face">
-    <meta name="twitter:image:src" content="https://spark.adobe.com/page/LYYbw/embed.jpg?buster=1567719439085">
+    <meta name="twitter:image:src" content="{% link static/images/social-image.jpg %}">
     <meta name="twitter:description" content="See the story">
 
-    <link rel="apple-touch-icon" href="https://spark.adobe.com/page/LYYbw/embed.jpg?buster=1567719439085">
+    <link rel="apple-touch-icon" href="{% link static/images/social-image.jpg %}">
     <link rel="shortcut icon" href="//d6uhzlpot4xwe.cloudfront.net/runtime/1.22/images/favicon.ico">
 
+    <!--
     <meta property="fb:app_id" content="919039361464473">
+    -->
 
     <script src="//d6uhzlpot4xwe.cloudfront.net/runtime/1.22/base-fonts.gz.js"></script>
     <script src="//d6uhzlpot4xwe.cloudfront.net/runtime/1.22/font-subgroup-kits/ltc-bodoni-175.gz.js"></script>
@@ -1577,7 +1579,7 @@ underline;
   <div id="app">
     <div id="publication-viewer" class="publication-viewer">
       <div id="luca-splash" class="splash">
-        <div class="background" style="background-image: url(images/097D77A5-45ED-4536-B89F-644D54AA5919.jpg?size=1024&asset_id=CA328BD2-9D74-4F89-AFFB-5D9C5141594E); background-position: 47.786458333333336% 27.040816326530614%;"></div>
+        <div class="background" style="background-image: url({% link static/images/097D77A5-45ED-4536-B89F-644D54AA5919.jpg %}); background-position: 47.786458333333336% 27.040816326530614%;"></div>
         <div class="content">
           <div class="logo"></div>
           <div class="loading-label">Loading</div>
@@ -1596,7 +1598,7 @@ underline;
         <div class="section title-section title-top"  data-section-behavior="chic-title"  data-layer="1" data-layer-name="over" data-scroll-after-animation="false">
         <div class="section-view">
           <div class="section-background">
-            <div role="img" class="section-background-image" style="background-position: 47.786458333333336% 27.040816326530614%;"><a class="background-image-placeholder-link" href="images/097D77A5-45ED-4536-B89F-644D54AA5919.jpg?size=1024&asset_id=CA328BD2-9D74-4F89-AFFB-5D9C5141594E" data-image-width="2323" data-image-height="3198"></a></div>
+            <div role="img" class="section-background-image" style="background-position: 47.786458333333336% 27.040816326530614%;"><a class="background-image-placeholder-link" href="{% link static/images/097D77A5-45ED-4536-B89F-644D54AA5919.jpg %}" data-image-width="2323" data-image-height="3198"></a></div>
           </div>
           <div class="title-header">
             <h2 class="title-header-view">
@@ -1622,7 +1624,7 @@ underline;
       <div class="section fullscreen-photo-section  caption-left" data-section-behavior="chic-fullscreen-photo" data-layer="-1" data-layer-name="under" data-zoom-start="" data-zoom-stop="" data-zoom-to="" data-zoom-from="" data-fixed="">
         <div class="section-view">
           <div class="section-background">
-            <div role="img" class="section-background-image" style="background-position: 57.54432920709267% 41.79865771812081%;"><a class="background-image-placeholder-link" href="images/D0F44D94-F706-4B62-8CCF-A7C571E06AB0.jpg?asset_id=1B40F5DC-C31A-434C-9051-D3720BB3AA3D&size=1024" data-image-width="2989" data-image-height="3725"></a></div>
+            <div role="img" class="section-background-image" style="background-position: 57.54432920709267% 41.79865771812081%;"><a class="background-image-placeholder-link" href="{% link static/images/D0F44D94-F706-4B62-8CCF-A7C571E06AB0.jpg %}" data-image-width="2989" data-image-height="3725"></a></div>
           </div>
           <div class="pull-quote">
             <div class="pull-quote-view">
@@ -1654,16 +1656,16 @@ underline;
                   <div class="photo-group-container">
                     <div class="photo-group t4-layout-pppp-1">
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/268CB33E-B18C-48BD-8A0E-2C3071B316E5.jpg?asset_id=33F99826-F9BC-4E93-94FD-8DDEABAC0C33&size=1024" data-src="images/268CB33E-B18C-48BD-8A0E-2C3071B316E5.jpg?asset_id=33F99826-F9BC-4E93-94FD-8DDEABAC0C33&size=1024" data-image-width="2500" data-image-height="2500"><span class="background-image-placeholder-link" data-href="images/268CB33E-B18C-48BD-8A0E-2C3071B316E5.jpg?asset_id=33F99826-F9BC-4E93-94FD-8DDEABAC0C33&size=1024"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/268CB33E-B18C-48BD-8A0E-2C3071B316E5.jpg %}" data-src="{% link static/images/268CB33E-B18C-48BD-8A0E-2C3071B316E5.jpg %}" data-image-width="2500" data-image-height="2500"><span class="background-image-placeholder-link" data-href="{% link static/images/268CB33E-B18C-48BD-8A0E-2C3071B316E5.jpg %}"></span></a>
                       </div>
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/8363625F-86BF-44AE-836C-EDAAD6914F90.jpg?size=1024&asset_id=48B936E9-1661-4808-A8CD-2DA7FA26B49F" data-src="images/8363625F-86BF-44AE-836C-EDAAD6914F90.jpg?size=1024&asset_id=48B936E9-1661-4808-A8CD-2DA7FA26B49F" data-image-width="1550" data-image-height="2030"><span class="background-image-placeholder-link" data-href="images/8363625F-86BF-44AE-836C-EDAAD6914F90.jpg?size=512&asset_id=48B936E9-1661-4808-A8CD-2DA7FA26B49F"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/8363625F-86BF-44AE-836C-EDAAD6914F90.jpg %}" data-src="{% link static/images/8363625F-86BF-44AE-836C-EDAAD6914F90.jpg %}" data-image-width="1550" data-image-height="2030"><span class="background-image-placeholder-link" data-href="{% link static/images/8363625F-86BF-44AE-836C-EDAAD6914F90.jpg %}"></span></a>
                       </div>
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/9F2DAE6F-A00A-444D-9FFA-CB95496D8C64.jpg?size=1024&asset_id=4351DCFD-6EC0-43FE-991C-6E7FE0F4058A" data-src="images/9F2DAE6F-A00A-444D-9FFA-CB95496D8C64.jpg?size=1024&asset_id=4351DCFD-6EC0-43FE-991C-6E7FE0F4058A" data-image-width="1512" data-image-height="2080"><span class="background-image-placeholder-link" data-href="images/9F2DAE6F-A00A-444D-9FFA-CB95496D8C64.jpg?size=512&asset_id=4351DCFD-6EC0-43FE-991C-6E7FE0F4058A"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/9F2DAE6F-A00A-444D-9FFA-CB95496D8C64.jpg %}" data-src="{% link static/images/9F2DAE6F-A00A-444D-9FFA-CB95496D8C64.jpg %}" data-image-width="1512" data-image-height="2080"><span class="background-image-placeholder-link" data-href="{% link static/images/9F2DAE6F-A00A-444D-9FFA-CB95496D8C64.jpg %}"></span></a>
                       </div>
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/A328610D-D47D-4763-B4CF-9444F7256781.jpg?asset_id=16224C95-BA1D-4ADD-86E7-D21A57106E31&size=1024" data-src="images/A328610D-D47D-4763-B4CF-9444F7256781.jpg?asset_id=16224C95-BA1D-4ADD-86E7-D21A57106E31&size=1024" data-image-width="2501" data-image-height="2501"><span class="background-image-placeholder-link" data-href="images/A328610D-D47D-4763-B4CF-9444F7256781.jpg?asset_id=16224C95-BA1D-4ADD-86E7-D21A57106E31&size=1024"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/A328610D-D47D-4763-B4CF-9444F7256781.jpg %}" data-src="{% link static/images/A328610D-D47D-4763-B4CF-9444F7256781.jpg %}" data-image-width="2501" data-image-height="2501"><span class="background-image-placeholder-link" data-href="{% link static/images/A328610D-D47D-4763-B4CF-9444F7256781.jpg %}"></span></a>
                       </div>
                     </div>
                   </div>
@@ -1685,16 +1687,16 @@ underline;
                   <div class="photo-group-container">
                     <div class="photo-group t4-layout-pppp-1">
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/FA3176E1-E3AC-496E-8265-9B1140D44002.jpg?asset_id=976D2723-13F1-40E2-8B27-14ACC164FF0C&size=1024" data-src="images/FA3176E1-E3AC-496E-8265-9B1140D44002.jpg?asset_id=976D2723-13F1-40E2-8B27-14ACC164FF0C&size=1024" data-image-width="2500" data-image-height="2500"><span class="background-image-placeholder-link" data-href="images/FA3176E1-E3AC-496E-8265-9B1140D44002.jpg?asset_id=976D2723-13F1-40E2-8B27-14ACC164FF0C&size=1024"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/FA3176E1-E3AC-496E-8265-9B1140D44002.jpg %}" data-src="{% link static/images/FA3176E1-E3AC-496E-8265-9B1140D44002.jpg %}" data-image-width="2500" data-image-height="2500"><span class="background-image-placeholder-link" data-href="{% link static/images/FA3176E1-E3AC-496E-8265-9B1140D44002.jpg %}"></span></a>
                       </div>
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/65FCB54B-AB3A-4D43-BB1E-EF6F97E77E9D.jpg?size=1024&asset_id=AE1F31D6-E82D-4D49-A23D-84979120F949" data-src="images/65FCB54B-AB3A-4D43-BB1E-EF6F97E77E9D.jpg?size=1024&asset_id=AE1F31D6-E82D-4D49-A23D-84979120F949" data-image-width="2373" data-image-height="3424"><span class="background-image-placeholder-link" data-href="images/65FCB54B-AB3A-4D43-BB1E-EF6F97E77E9D.jpg?size=512&asset_id=AE1F31D6-E82D-4D49-A23D-84979120F949"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/65FCB54B-AB3A-4D43-BB1E-EF6F97E77E9D.jpg %}" data-src="{% link static/images/65FCB54B-AB3A-4D43-BB1E-EF6F97E77E9D.jpg %}" data-image-width="2373" data-image-height="3424"><span class="background-image-placeholder-link" data-href="{% link static/images/65FCB54B-AB3A-4D43-BB1E-EF6F97E77E9D.jpg %}"></span></a>
                       </div>
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/77C728B0-C68F-4412-94A0-13DF900D1C87.jpg?asset_id=9E909A0F-B42F-4771-9FEB-0AA651F7A453&size=1024" data-src="images/77C728B0-C68F-4412-94A0-13DF900D1C87.jpg?asset_id=9E909A0F-B42F-4771-9FEB-0AA651F7A453&size=1024" data-image-width="2501" data-image-height="2501"><span class="background-image-placeholder-link" data-href="images/77C728B0-C68F-4412-94A0-13DF900D1C87.jpg?asset_id=9E909A0F-B42F-4771-9FEB-0AA651F7A453&size=1024"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/77C728B0-C68F-4412-94A0-13DF900D1C87.jpg %}" data-src="{% link static/images/77C728B0-C68F-4412-94A0-13DF900D1C87.jpg %}" data-image-width="2501" data-image-height="2501"><span class="background-image-placeholder-link" data-href="{% link static/images/77C728B0-C68F-4412-94A0-13DF900D1C87.jpg %}"></span></a>
                       </div>
                       <div class="photo-container tile">
-                        <a aria-label="thumbnail image" class="photo-image" href="images/F5EBFAEA-AAD2-4140-9B41-A1052D3BBD68.jpg?size=1024&asset_id=8BF4A36E-87AA-4689-B360-6A2BFC7F72C6" data-src="images/F5EBFAEA-AAD2-4140-9B41-A1052D3BBD68.jpg?size=1024&asset_id=8BF4A36E-87AA-4689-B360-6A2BFC7F72C6" data-image-width="2495" data-image-height="3252"><span class="background-image-placeholder-link" data-href="images/F5EBFAEA-AAD2-4140-9B41-A1052D3BBD68.jpg?size=512&asset_id=8BF4A36E-87AA-4689-B360-6A2BFC7F72C6"></span></a>
+                        <a aria-label="thumbnail image" class="photo-image" href="{% link static/images/F5EBFAEA-AAD2-4140-9B41-A1052D3BBD68.jpg %}" data-src="{% link static/images/F5EBFAEA-AAD2-4140-9B41-A1052D3BBD68.jpg %}" data-image-width="2495" data-image-height="3252"><span class="background-image-placeholder-link" data-href="{% link static/images/F5EBFAEA-AAD2-4140-9B41-A1052D3BBD68.jpg %}"></span></a>
                       </div>
                     </div>
                   </div>
@@ -1710,14 +1712,14 @@ underline;
       <div class="section card-flipbook-section" data-section-behavior="chic-column-overlay" data-spacing=".75" data-layer="-1" data-layer-name="under">
         <div class="section-view">
           <div class="section-background">
-            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/180B5A97-7737-4D49-86D4-AD051717F72D.jpg?size=512&asset_id=AA25C873-42D9-456A-A42E-46E8C13AFC49" data-image-width="2400" data-image-height="3292"></a></div>
-            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/E85F1538-C842-4E41-ADAD-91FC17774BA9.jpg?size=512&asset_id=19D7AF36-5253-4CC9-AADD-35998641BE20" data-image-width="2377" data-image-height="3133"></a></div>
-            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/8128A6F4-B636-4A24-AC80-E66B367E2D88.jpg?size=512&asset_id=30730EAE-8433-4D50-BA16-721CD5C91255" data-image-width="2273" data-image-height="2647"></a></div>
-            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/9002DE8B-B9A8-4E2F-A359-BD8F3452D081.jpg?size=512&asset_id=77C328AA-D599-4D19-8901-DF994308D6F0" data-image-width="2150" data-image-height="2921"></a></div>
-            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/8CF2D03A-99C2-46A9-9DB7-B9E9EC7237DE.jpg?size=512&asset_id=249A75B6-EB4D-4704-9FF6-D32DDEF6D631" data-image-width="2230" data-image-height="3046"></a></div>
-            <div role="img" class="section-background-image" style=" background-position: 49.088541666666664% 6.63265306122449%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/3EBC3B70-D8A1-466B-AB31-1F5E8A06B627.jpg?size=512&asset_id=989521E6-2DB0-4345-9F85-9F224E2A2C06" data-image-width="3435" data-image-height="4819"></a></div>
-            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/9EBFD799-3700-4B68-9A57-792EDD94E68C.jpg?size=512&asset_id=C2848C75-3F21-4B27-A590-074CAE735B1F" data-image-width="2147" data-image-height="3325"></a></div>
-            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="images/5F4798EB-479B-49F8-8336-9978715619FE.jpg?size=512&asset_id=92A6F18B-0909-4EE5-863B-76AE0F9A4977" data-image-width="2248" data-image-height="3031"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/180B5A97-7737-4D49-86D4-AD051717F72D.jpg %}" data-image-width="2400" data-image-height="3292"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/E85F1538-C842-4E41-ADAD-91FC17774BA9.jpg %}" data-image-width="2377" data-image-height="3133"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/8128A6F4-B636-4A24-AC80-E66B367E2D88.jpg %}" data-image-width="2273" data-image-height="2647"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/9002DE8B-B9A8-4E2F-A359-BD8F3452D081.jpg %}" data-image-width="2150" data-image-height="2921"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/8CF2D03A-99C2-46A9-9DB7-B9E9EC7237DE.jpg %}" data-image-width="2230" data-image-height="3046"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 49.088541666666664% 6.63265306122449%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/3EBC3B70-D8A1-466B-AB31-1F5E8A06B627.jpg %}" data-image-width="3435" data-image-height="4819"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/9EBFD799-3700-4B68-9A57-792EDD94E68C.jpg %}" data-image-width="2147" data-image-height="3325"></a></div>
+            <div role="img" class="section-background-image" style=" background-position: 50% 50%;" data-pan-and-zoom="zoom-in"><a class="background-image-placeholder-link" href="{% link static/images/5F4798EB-479B-49F8-8336-9978715619FE.jpg %}" data-image-width="2248" data-image-height="3031"></a></div>
           </div>
           <div class="section-content">
             <div class="section-content-view card-left">
@@ -1777,7 +1779,7 @@ underline;
       <div class="section window-section height-50 caption-left" data-section-behavior="chic-window" data-layer="0" data-layer-name="over">
         <div class="section-view">
           <div class="window section-background">
-            <div role="img" class="section-background-image" style="background-position: 50% 50%;"><a class="background-image-placeholder-link" href="images/1CF1C879-05AE-46CE-B7D6-D6DEDF2F5732.jpg?size=512&asset_id=CF113A62-679F-47D6-94D3-493750C6116C" data-image-width="2373" data-image-height="3270"></a></div>
+            <div role="img" class="section-background-image" style="background-position: 50% 50%;"><a class="background-image-placeholder-link" href="{% link static/images/1CF1C879-05AE-46CE-B7D6-D6DEDF2F5732.jpg %}" data-image-width="2373" data-image-height="3270"></a></div>
           </div>
           <div class="pull-quote">
             <div class="pull-quote-view">
@@ -1793,13 +1795,15 @@ underline;
               <div class="content-container">
                           <h3 class=" " >I will draw your most beautiful presents For any upcoming occasion</h3>
                               <div class="link-button-wrapper link-left">
-                    <a class="link-button "  href="mailto:capellasistin@mac.com" rel="nofollow noreferrer">Send Me A DM On Instagram Or Click Here To  Email</a>
+                                  <a class="link-button " href="https://www.instagram.com/nickmoscovitz" rel="nofollow noreferrer">Send Me A DM On Instagram</a><br />or<br /><a class="link-button" href="mailto:capellasistin@mac.com" rel="nofollow noreferrer">Click Here To Email Me</a>
                   </div>
                     </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!--
       <div class="section author-section" data-section-behavior="chic-author" data-layer-name="over">
         <div class="section-view">
           <div class="section-content">
@@ -1813,6 +1817,8 @@ underline;
           </div>
         </div>
       </div>
+      -->
+
       <div class="section credits-section" data-section-behavior="chic-credits" data-layer="0" data-layer-name="over">
         <div class="section-view">
           <div class="section-content">
@@ -1827,19 +1833,7 @@ underline;
           </div>
         </div>
       </div>
-      <!--BUMPER-SECTION-TOP-LEVEL-START-->
-      <div class="section bumper-section default-bumper-section" data-layer-name="over">
-          <div class="section-view">
-              <!--FOOTER-START-->
-              <div class="footer">
-                  <a class="tos" target="_blank" href="http://www.adobe.com/legal/terms.html" rel="nofollow">Terms of Service</a>
-                  <a class="privacy" target="_blank" href="http://www.adobe.com/go/privacy" rel="nofollow">Privacy Policy</a>
-                  <a class="js-report-abuse" href="#" target="_blank" rel="nofollow">Report Abuse</a>
-              </div>
-              <!--FOOTER-END-->
-          </div>
-      </div>
-      <!--BUMPER-SECTION-TOP-LEVEL-END-->
+
 </div>
 </div>
           </div>

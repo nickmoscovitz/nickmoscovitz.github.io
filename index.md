@@ -1,6 +1,7 @@
 ---
+layout: home
 title: Home
 i18n: home
 ---
 
-Home page.
+home page.
